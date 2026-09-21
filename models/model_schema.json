@@ -1,0 +1,86 @@
+{
+    "model_name": "Tourism Package Prediction",
+    "model_type": "RandomForestClassifier",
+    "target_variable": "ProdTaken",
+    "target_classes": {
+        "0": "Not Purchased",
+        "1": "Purchased"
+    },
+    "features": [
+        "Age",
+        "TypeofContact",
+        "CityTier",
+        "DurationOfPitch",
+        "Occupation",
+        "Gender",
+        "NumberOfPersonVisiting",
+        "NumberOfFollowups",
+        "ProductPitched",
+        "PreferredPropertyStar",
+        "MaritalStatus",
+        "NumberOfTrips",
+        "Passport",
+        "PitchSatisfactionScore",
+        "OwnCar",
+        "NumberOfChildrenVisiting",
+        "Designation",
+        "MonthlyIncome"
+    ],
+    "categorical_features": [
+        "TypeofContact",
+        "Occupation",
+        "Gender",
+        "ProductPitched",
+        "MaritalStatus",
+        "Designation"
+    ],
+    "numerical_features": [
+        "Age",
+        "CityTier",
+        "DurationOfPitch",
+        "NumberOfPersonVisiting",
+        "NumberOfFollowups",
+        "PreferredPropertyStar",
+        "NumberOfTrips",
+        "Passport",
+        "PitchSatisfactionScore",
+        "OwnCar",
+        "NumberOfChildrenVisiting",
+        "MonthlyIncome"
+    ],
+    "categorical_options": {
+        "TypeofContact": [
+            "Company Invited",
+            "Self Enquiry"
+        ],
+        "Occupation": [
+            "Free Lancer",
+            "Large Business",
+            "Salaried",
+            "Small Business"
+        ],
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "ProductPitched": [
+            "Basic",
+            "Deluxe",
+            "King",
+            "Standard",
+            "Super Deluxe"
+        ],
+        "MaritalStatus": [
+            "Divorced",
+            "Married",
+            "Single"
+        ],
+        "Designation": [
+            "AVP",
+            "Executive",
+            "Manager",
+            "Senior Manager",
+            "VP"
+        ]
+    }
+}
